@@ -1,0 +1,11 @@
+*.suo
+XamarinFormsGestures/packages
+XamarinFormsGestures/XamarinFormsGestures/XamarinFormsGestures.Droid/bin
+XamarinFormsGestures/XamarinFormsGestures/XamarinFormsGestures.Droid/obj
+*.user
+XamarinFormsGestures/XamarinFormsGestures/XamarinFormsGestures.iOS/bin
+XamarinFormsGestures/XamarinFormsGestures/XamarinFormsGestures.iOS/obj
+XamarinFormsGestures/XamarinFormsGestures/XamarinFormsGestures.WinPhone/Bin
+XamarinFormsGestures/XamarinFormsGestures/XamarinFormsGestures.WinPhone/obj
+XamarinFormsGestures/XamarinFormsGestures/XamarinFormsGestures/bin
+XamarinFormsGestures/XamarinFormsGestures/XamarinFormsGestures/obj
