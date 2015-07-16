@@ -6,6 +6,9 @@
              x:Class="XamarinFormsGestures.Views.GesturesPage">
   
   <controls:GestureView x:Name="gestureView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Red" Padding="20">
+  	<!-- In Android, the AbsoluteLayout stops the events from being received by the GestureView.
+  		 StackLayout bubbles the events up as expected.  Works fine in iOS.
+	-->
   	<AbsoluteLayout HorizontalOptions="FillAndExpand" 
   					VerticalOptions="FillAndExpand" 
   					BackgroundColor="Green">
