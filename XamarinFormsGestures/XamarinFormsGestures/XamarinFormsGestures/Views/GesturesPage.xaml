@@ -5,8 +5,17 @@
              xmlns:controls="clr-namespace:XamarinFormsGestures.Controls;assembly=XamarinFormsGestures"
              x:Class="XamarinFormsGestures.Views.GesturesPage">
   
-  <controls:GestureView x:Name="gestureView">
-    <Label Text="{Binding Message}" VerticalOptions="Center" HorizontalOptions="Center" />
+  <controls:GestureView x:Name="gestureView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Red" Padding="20">
+  	<AbsoluteLayout HorizontalOptions="FillAndExpand" 
+  					VerticalOptions="FillAndExpand" 
+  					BackgroundColor="Green">
+    	<Label Text="{Binding Message}" 
+    		   VerticalOptions="Center" 
+    		   HorizontalOptions="Center" 
+    		   TextColor="White" 
+    		   AbsoluteLayout.LayoutBounds=".5, .5, AutoSize, AutoSize" 
+    		   AbsoluteLayout.LayoutFlags="PositionProportional" />
+    </AbsoluteLayout>
   </controls:GestureView>
 
 </ContentPage>
